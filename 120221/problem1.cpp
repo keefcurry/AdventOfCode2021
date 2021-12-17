@@ -49,6 +49,9 @@ int main(int argc, char* argv[]) {
         }
 
         cout << "Horizontal: " << horizontal << ", Vertical: " << vertical << endl;
+
+        int final_depth = horizontal * vertical;
+        cout << final_depth << endl;
         return 0;
     }
 
