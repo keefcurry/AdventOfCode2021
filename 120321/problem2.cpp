@@ -46,8 +46,8 @@ bitset<12> getOGR(vector<string> arr, int count, int bitSize){
         }
         if(array.size() <= 2){
             ogr_str = (array.at(0)[j+1] == '1') ? array.at(0) : array.at(1);
-            cout << array.at(0) << endl;
-            cout << ogr_str << endl;
+            // cout << array.at(0) << endl;
+            // cout << ogr_str << endl;
             bitset<12> ogr(ogr_str);
             return ogr;
         }
